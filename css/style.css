@@ -815,7 +815,7 @@ span.material-icons::after {
 
 .white span.material-icons::after {
 	position: relative;
-	content: url(/images/outline_nightlight_round_black_24dp.png);
+	content: url(../images/outline_nightlight_round_black_24dp.png);
 	left: 5px;
 	top: 0;
 	height: 25px;
