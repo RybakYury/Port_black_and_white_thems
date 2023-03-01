@@ -169,7 +169,7 @@ html {
 }
 
 .user-n {
-	background-image: url(images/user.png);
+	background-image: url(../images/user.png);
 	width: 100%;
 	height: 460px;
 	background-repeat: no-repeat;
@@ -179,7 +179,7 @@ html {
 }
 
 .white .user-n {
-	background-image: url(images/user-ww.png);
+	background-image: url(../images/user-ww.png);
 
 }
 
@@ -746,11 +746,11 @@ form .btn2 {
 
 @media only screen and (max-width: 600px) {
 	#header {
-		background-image: url(/images/phone-background.png);
+		background-image: url(../images/phone-background.png);
 	}
 
 	.white #header {
-		background-image: url(/images/phone-background-w.jpg);
+		background-image: url(../images/phone-background-w.jpg);
 	}
 
 
