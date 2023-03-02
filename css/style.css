@@ -41,6 +41,10 @@ body.lock {
 html {
 	scroll-behavior: smooth;
 }
+.white html {
+	scroll-behavior: smooth;
+}
+
 
 #header {
 	width: 100%;
@@ -48,11 +52,13 @@ html {
 	background-image: url(../images/background.png);
 	background-size: cover;
 	background-position: center;
+	
 }
+
 
 .white #header {
 	background-image: url(../images/background-w2.png);
-
+	animation: text-focus-in 0.5s linear forwards;
 }
 
 .header {
@@ -160,8 +166,11 @@ html {
 #about {
 	padding: 80px 0;
 	color: var(--dark-text-g);
+	
 }
-
+.white #about {
+	animation: text-focus-in 0.5s linear forwards;
+}
 .row {
 	display: flex;
 	justify-content: space-between;
@@ -180,7 +189,7 @@ html {
 
 .white .user-n {
 	background-image: url(../images/user-ww.png);
-
+	
 }
 
 .user-n {}
@@ -310,6 +319,10 @@ html {
 /* --------------------servises----------------- */
 #services {
 	padding: 30px 0;
+	
+}
+.white #services {
+	animation: text-focus-in 0.5s linear forwards;
 }
 
 .services-list {
@@ -361,6 +374,10 @@ html {
 /* --------------------portfolio----------------- */
 #portfolio {
 	padding: 50px 0;
+	
+}
+.white #portfolio {
+	animation: text-focus-in 0.5s linear forwards;
 }
 
 .work-list {
@@ -458,7 +475,12 @@ html {
 }
 
 /* --------------------contact----------------- */
-
+#contact{
+	
+}
+.white #contact {
+	animation: text-focus-in 0.5s linear forwards;
+}
 .contact-left {
 	flex-basis: 35%;
 }
@@ -591,6 +613,8 @@ form .btn2 {
 .copyright i {
 	color: var(--dark-text-r);
 }
+
+
 
 /* -------------------сcs for small screens----------------- */
 /*--------------------Меню--------------------*/
@@ -751,6 +775,7 @@ form .btn2 {
 
 	.white #header {
 		background-image: url(../images/phone-background-w.jpg);
+		
 	}
 
 
